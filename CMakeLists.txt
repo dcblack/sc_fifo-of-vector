@@ -1,6 +1,6 @@
 #!cmake .
 #
-# This works with SystemC versions 2.3.2 and later, which have support for
+# This works with SystemC versions 3.0.0 (possibly as early as 2.3.3), which has support for
 # cmake and specify SystemC_CXX_STANDARD.
 #
 # REQUIREMENTS:
@@ -8,7 +8,11 @@
 
 cmake_minimum_required( VERSION 3.20 )
 
-project( fifo_of_vect VERSION 0.1 DESCRIPTION "{:DESC:}" LANGUAGES CXX )
+project( fifo_of_vect
+         VERSION 0.1
+         DESCRIPTION "Example using std::vector<T> with sc_fifo<T>"
+         LANGUAGES CXX
+       )
 
 #-------------------------------------------------------------------------------
 # Find project directory containing defaults
