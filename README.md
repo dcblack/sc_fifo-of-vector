@@ -9,7 +9,8 @@ Demonstrates how to wrap `std::vector<T>` (or any container) for use in `sc_sign
 sc_fifo-of-vector/
   ├── .git/
   ├── .gitignore
-  ├── ABOUT.md <<<<<< This text file
+  ├── LICENSE.md
+  ├── README.md <<<<<< This text file
   ├── cmake/
   │   ├── ABOUT.md
   │   ├── sc-project_defaults.cmake
